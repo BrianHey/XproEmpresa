@@ -1,0 +1,48 @@
+
+#wrap{
+	height: 400px;
+}
+
+#contenido-contacto{
+	width: 75%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 40px;
+	background: rgba(0,0,0,0.2);
+	animation: contacto 1.5s 1; 
+	overflow: hidden;
+	align-items: space-between;
+}
+
+#contenido-contacto img{
+	width: 700px;
+	height: 189px;
+	box-shadow: 0px 0px 10px 0.5px black;
+	transition: all 500ms;
+}
+
+#contenido-contacto img:hover{
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0.5px gray;
+}
+
+#contenido-contacto #texto-contacto{
+	padding: 15px;
+	color: white;
+	text-align:center;
+	font-size: 20px;
+
+}
+
+#opciones-menu-vertical{
+	height: 295px;
+}
+
+@keyframes contacto{
+
+	0%{  margin-top:  200px;  }
+	100%{  margin-top: 0px;  }
+}
+

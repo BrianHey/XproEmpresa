@@ -1,0 +1,98 @@
+#wrap{
+	height: 600px;
+	border: none;
+}
+#menu-vertical{
+	height: 600px;
+}
+#opciones-menu-vertical{
+	border-bottom: solid 3px #7a043c;
+}
+#contenido-contacto{
+	width: 75%;
+	display: flex;
+	justify-content: space-around;
+	padding: 40px;
+	background: rgba(0,0,0,0.2);
+	animation: contacto 1.5s 1; 
+	overflow: hidden;
+}
+
+#contenido-contacto img{
+	width: 100%;
+	transition: all 500ms;
+}
+
+
+#contenido-contacto #texto-contacto{
+	padding: 15px;
+	color: white;
+	text-align:center;
+	font-size: 25px;	
+	max-width: 400px;
+}
+
+#contenido-contacto #formulario{
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	color: white;
+	font-size: 25px;
+	align-items: center;
+	overflow: hidden;
+	padding: 20px;
+	background: rgba(0,0,0,0.3);
+	box-shadow: 1px 1px 10px 1px black;
+	box-sizing: border-box;
+	max-height: 600px;
+}
+
+#contenido-contacto #formulario form{
+	width: 100%;
+	margin: auto;
+
+}
+
+#contenido-contacto #formulario form table tr td input{
+	width: 380px;
+}
+
+#contenido-contacto #formulario form table tr td input:focus{
+	outline:0px;
+	border: solid #5c3659;
+}
+#contenido-contacto #formulario form table tr td textarea:focus{
+	outline:0px;
+	border: solid #5c3659;
+}
+#contenido-contacto #formulario form table tr td textarea{
+	width: 380px;
+	height: 200px;
+	max-height: 200px;
+}
+
+button{
+	display: block;
+	margin: auto;
+	background:rgba(173,100,129,0.4);
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+}
+button:active{
+	background: rgb(89,51,87);
+}
+
+
+#opciones-menu-vertical{
+	height: 295px;
+}
+
+@keyframes contacto{
+
+	0%{  margin-top:  200px;  }
+	100%{  margin-top: 0px;  }
+
+}
